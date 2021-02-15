@@ -46,13 +46,14 @@
 
 <body>
 
-    <!-- component -->
-    <!-- This is an example component -->
-    <div class="h-screen w-full flex flex-col justify-center items-center">
-        <div class='max-w-lg bg-white shadow-md rounded-lg overflow-hidden mx-auto'>
-            <div class="py-4 px-8 mt-3">
-
-
+    <div class="h-screen w-full flex max-w-md mx-auto overflow-hidden md:max-w-2xl flex-col justify-center items-center">
+        <div class="md:flex max-w-lg bg-white shadow-md rounded-lg">
+            <!-- <div class="md:flex-shrink-0">
+                <img class="h-48 w-full object-cover md:w-48"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzgdZnB8T3iSluaJhzapHAlReANoQaM8XEkg&usqp=CAU"
+                    alt="Man looking at item at a store">
+            </div> -->
+            <div class="p-8">
 
                 {% if messages %}
                 {% for message in messages %}
@@ -68,7 +69,7 @@
                             </svg></div>
                         <div>
                             <p class="font-bold">Success</p>
-                            <p class="text-sm">File upload to Firebase storage is successful.</p>
+                            <p class="text-sm">File upload to Firebase cloud storage is successful.</p>
                         </div>
                     </div>
                 </div>
