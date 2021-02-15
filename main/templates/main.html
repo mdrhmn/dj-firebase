@@ -109,12 +109,6 @@
         </div>
     </div>
 
-
-    <form method="POST" action="{% url 'main' %}" enctype="multipart/form-data">
-        {% csrf_token %}
-        <input type="file" id="myFile" name="img">
-        <input type="submit">
-    </form>
 </body>
 
 </html>
