@@ -116,12 +116,12 @@ If everything works well, we should see an instance of a Django application runn
     - Views in Django are a **collection of functions or classes** inside the `views.py` file in your app directory.
     - Each function or class handles the logic that gets processed each time a different URL is visited.
 
-    ```python
-    from django.shortcuts import render
+        ```python
+        from django.shortcuts import render
 
-    def view_name(request):
-        return render(request, 'template_name.html', {})
-    ```
+        def view_name(request):
+            return render(request, 'template_name.html', {})
+        ```
 
     - The function defined is called a **view function**. When this function is called, it will render an HTML file called `app_name.html`.
 
