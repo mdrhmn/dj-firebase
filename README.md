@@ -300,3 +300,4 @@ What this essentially does is that the **user is able to upload any file** via t
 1. https://www.youtube.com/watch?v=I1eskLk0exg&feature=youtu.be
 2. https://github.com/thisbejim/Pyrebase
 3. https://stackoverflow.com/questions/65873454/python-pyrebase-config/65873526#65873526
+4. https://www.geeksforgeeks.org/how-to-create-a-new-project-in-django-using-firebase-database/
